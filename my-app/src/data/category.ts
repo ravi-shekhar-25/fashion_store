@@ -5,49 +5,48 @@ export const category: Category[] = [
         id: 1,
         name: "Body Type",
         subcategory: [
-            "Petite",
-            "Tall",
-            "Plus Size",
-            "Curvy",
-            "Athletic",
-            "Slim",
+            "Apple",
+            "Pear",
             "Hourglass",
-            "Straight"
+            "Rectangle",
+            "Inverted Triangle",
+            "Athletic"
         ]
     },
     {
         id: 2,
         name: "Age Group",
         subcategory: [
-            "Infant (0–2 yrs)",
-            "Toddler (2–4 yrs)",
-            "Kids (5–12 yrs)",
-            "Teen (13–19 yrs)",
-            "Young Adult",
-            "Adult",
-            "Senior"
+            "Kids",
+            "Teens",
+            "Young Adults",
+            "Adults",
+            "Seniors"
         ]
     },
     {
         id: 3,
         name: "Brand Tier",
         subcategory: [
-            "Luxury (Gucci, Prada)",
-            "Premium (Calvin Klein, Ted Baker)",
-            "Mid-range (Zara, H&M)",
-            "Budget (Uniqlo, Max Fashion)"
+            "Fast Fashion",
+            "Mid-Tier",
+            "Premium",
+            "Luxury",
+            "Designer",
+            "Indie/Local"
         ]
     },
     {
         id: 4,
         name: "Care Instructions",
         subcategory: [
-            "Machine Wash",
-            "Hand Wash",
+            "Machine Washable",
+            "Hand Wash Only",
             "Dry Clean Only",
-            "Do Not Bleach",
-            "Tumble Dry Low",
-            "Iron at Low Temperature"
+            "Iron Safe",
+            "Delicate Cycle",
+            "Air Dry",
+            "Low Heat"
         ]
     },
     {
@@ -56,24 +55,34 @@ export const category: Category[] = [
         subcategory: [
             "Red",
             "Blue",
+            "Green",
             "Black",
             "White",
+            "Yellow",
+            "Purple",
+            "Pink",
+            "Orange",
+            "Brown",
+            "Grey",
             "Beige",
-            "Pastel Pink",
-            "Olive Green",
-            "Mustard Yellow"
+            "Multicolor"
         ]
     },
     {
         id: 6,
         name: "Cultural Style",
         subcategory: [
-            "Indian Ethnic (Kurta, Sari)",
-            "Japanese (Kimono)",
-            "African Prints (Ankara)",
-            "Middle Eastern (Abaya)",
-            "Western Casual",
-            "Bohemian"
+            "Western",
+            "Eastern",
+            "Bohemian",
+            "Minimalist",
+            "Gothic",
+            "Punk",
+            "Preppy",
+            "Hip Hop",
+            "Indie",
+            "K-Fashion",
+            "Scandinavian"
         ]
     },
     {
@@ -82,9 +91,13 @@ export const category: Category[] = [
         subcategory: [
             "Slim Fit",
             "Regular Fit",
-            "Relaxed Fit",
+            "Loose Fit",
             "Oversized",
-            "Tailored Fit",
+            "Skinny",
+            "Wide Leg",
+            "Straight",
+            "Tailored",
+            "A-Line",
             "Bodycon"
         ]
     },
@@ -92,10 +105,9 @@ export const category: Category[] = [
         id: 8,
         name: "Gender",
         subcategory: [
-            "Men",
-            "Women",
-            "Unisex",
-            "Gender-neutral"
+            "Male",
+            "Female",
+            "Unisex"
         ]
     },
     {
@@ -103,9 +115,10 @@ export const category: Category[] = [
         name: "Generation",
         subcategory: [
             "Gen Z",
+            "Gen Alpha",
             "Millennials",
             "Gen X",
-            "Baby Boomers"
+            "Boomers"
         ]
     },
     {
@@ -113,12 +126,20 @@ export const category: Category[] = [
         name: "Lifestyle",
         subcategory: [
             "Casual",
-            "Professional",
-            "Sports",
-            "Travel",
+            "Athleisure",
+            "Business Casual",
+            "Formal",
+            "Loungewear",
             "Streetwear",
-            "Minimalist",
-            "Partywear"
+            "Professional",
+            "Student",
+            "Stay-at-Home",
+            "Travel-Friendly",
+            "Low-Maintenance",
+            "High-Maintenance",
+            "Active",
+            "Urban",
+            "Rural"
         ]
     },
     {
@@ -126,27 +147,27 @@ export const category: Category[] = [
         name: "Material",
         subcategory: [
             "Cotton",
-            "Linen",
-            "Polyester",
-            "Wool",
-            "Silk",
             "Denim",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Leather",
+            "Polyester",
             "Rayon",
             "Nylon",
-            "Leather"
+            "Viscose"
         ]
     },
     {
         id: 12,
         name: "Occasion",
         subcategory: [
+            "Work",
+            "Party",
             "Wedding",
-            "Office Wear",
+            "Gym",
             "Beach",
-            "Sports Event",
-            "Festival",
-            "Date Night",
-            "Lounge"
+            "Date Night"
         ]
     },
     {
@@ -157,9 +178,12 @@ export const category: Category[] = [
             "Stripes",
             "Polka Dots",
             "Floral",
-            "Plaid",
             "Animal Print",
+            "Plaid",
+            "Checkered",
+            "Geometric",
             "Abstract",
+            "Paisley",
             "Tie-Dye"
         ]
     },
@@ -167,61 +191,62 @@ export const category: Category[] = [
         id: 14,
         name: "Price Range",
         subcategory: [
-            "Under ₹500",
-            "₹500–₹1,000",
-            "₹1,000–₹3,000",
-            "₹3,000–₹5,000",
-            "Above ₹5,000"
+            "Budget",
+            "Mid-Range",
+            "Premium",
+            "Luxury"
         ]
     },
     {
         id: 15,
         name: "Season",
         subcategory: [
-            "Summer",
-            "Winter",
             "Spring",
-            "Autumn",
-            "Monsoon"
+            "Summer",
+            "Fall",
+            "Winter"
         ]
     },
     {
         id: 16,
         name: "Size Category",
         subcategory: [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL",
-            "One Size Fits All"
+            "Petite",
+            "Regular",
+            "Tall",
+            "Plus Size",
+            "Maternity"
         ]
     },
     {
         id: 17,
         name: "Style",
         subcategory: [
-            "Formal",
-            "Semi-formal",
             "Casual",
-            "Athleisure",
-            "Retro",
-            "Chic",
-            "Punk",
-            "Minimalist"
+            "Formal",
+            "Business",
+            "Athletic",
+            "Streetwear",
+            "Vintage",
+            "Bohemian",
+            "Techwear",
+            "Academic",
+            "Cottagecore",
+            "Y2K",
+            "Grunge"
         ]
     },
     {
         id: 18,
         name: "Sustainability",
         subcategory: [
-            "Organic Cotton",
-            "Recycled Polyester",
-            "Vegan Leather",
+            "Eco-Friendly",
+            "Organic",
+            "Recycled Materials",
             "Fair Trade",
-            "Low-Waste Manufacturing"
+            "Vegan",
+            "Upcycled",
+            "Sustainable Production"
         ]
     },
     {
@@ -230,22 +255,23 @@ export const category: Category[] = [
         subcategory: [
             "Trending",
             "Classic",
-            "Seasonal",
-            "Limited Edition",
-            "New Arrival",
-            "Clearance"
+            "Timeless",
+            "Seasonal Trend",
+            "Retro Revival",
+            "Avant-Garde"
         ]
     },
     {
         id: 20,
         name: "Weather",
         subcategory: [
-            "Hot & Humid",
-            "Cold & Snowy",
+            "Hot Weather",
+            "Cold Weather",
             "Rainy",
             "Windy",
-            "Mild",
-            "Dry & Hot"
+            "Humid",
+            "Dry",
+            "All Weather"
         ]
     },
     {
@@ -269,11 +295,13 @@ export const category: Category[] = [
             "T-Shirts",
             "Shirts",
             "Blouses",
+            "Hoodies",
+            "Sweaters",
             "Tank Tops",
-            "Polo Shirts",
             "Crop Tops",
-            "Sweatshirts",
-            "Hoodies"
+            "Cardigans",
+            "Polo Shirts",
+            "Button-Down Shirts"
         ]
     },
     {
@@ -285,22 +313,24 @@ export const category: Category[] = [
             "Shorts",
             "Skirts",
             "Leggings",
-            "Joggers",
+            "Sweatpants",
             "Chinos",
-            "Cargo Pants"
+            "Joggers",
+            "Culottes"
         ]
     },
     {
         id: 24,
         name: "Dresses",
         subcategory: [
-            "Maxi Dress",
-            "Midi Dress",
-            "Mini Dress",
-            "Shift Dress",
-            "Wrap Dress",
-            "Gown",
-            "Sundress"
+            "Maxi Dresses",
+            "Mini Dresses",
+            "Midi Dresses",
+            "Cocktail Dresses",
+            "Evening Gowns",
+            "Sundresses",
+            "Shift Dresses",
+            "Wrap Dresses"
         ]
     },
     {
@@ -310,10 +340,12 @@ export const category: Category[] = [
             "Jackets",
             "Coats",
             "Blazers",
-            "Cardigans",
-            "Ponchos",
+            "Windbreakers",
             "Parkas",
-            "Capes"
+            "Puffer Jackets",
+            "Leather Jackets",
+            "Denim Jackets",
+            "Trench Coats"
         ]
     },
     {
@@ -323,11 +355,13 @@ export const category: Category[] = [
             "Sneakers",
             "Sandals",
             "Boots",
+            "Flats",
             "Loafers",
             "Heels",
-            "Flats",
             "Slippers",
-            "Flip-flops"
+            "Oxford Shoes",
+            "Athletic Shoes",
+            "Flip Flops"
         ]
     },
     {
@@ -337,25 +371,23 @@ export const category: Category[] = [
             "Hats",
             "Belts",
             "Scarves",
-            "Gloves",
-            "Sunglasses",
             "Bags",
+            "Watches",
+            "Sunglasses",
             "Jewelry",
-            "Watches"
+            "Gloves"
         ]
     },
     {
         id: 28,
         name: "Underwear & Intimates",
         subcategory: [
-            "Briefs",
-            "Boxers",
             "Bras",
             "Panties",
-            "Camisoles",
-            "Slips",
-            "Shapewear",
-            "Lingerie"
+            "Boxers",
+            "Briefs",
+            "Lingerie",
+            "Thermal Wear"
         ]
     },
     {
@@ -363,11 +395,11 @@ export const category: Category[] = [
         name: "Activewear",
         subcategory: [
             "Sports Bras",
-            "Gym Shorts",
-            "Track Pants",
-            "Running Shoes",
+            "Running Shorts",
+            "Tracksuits",
             "Yoga Pants",
-            "Sweat-wicking T-Shirts",
+            "Athletic Tops",
+            "Sweatshirts",
             "Compression Wear"
         ]
     }
